@@ -2651,7 +2651,7 @@ try:
         # Look for relevant URLs in the output
         local_url_match = re.search(r'Local URL: (http://localhost:\d+)', logs)
         network_url_match = re.search(r'Network URL: (http://\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}:\d+)', logs)
-        external_url_match = re.search(r'External URL: (https?://[\w.-]+(?:\.[\w\.-]+)+[\w\-\_~:/?#[\]@!\$&'\(\)*\+,;=.]*)', logs)
+        external_url_match = re.search(r"External URL: (https?://[\w.-]+(?:\.[\w\.-]+)+[\w\-\_~:/?#[\]@!\$&'\(\)*\+,;=.]*)", logs)
 
         print("\n--- Found URLs ---")
         if local_url_match:
