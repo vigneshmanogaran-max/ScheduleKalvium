@@ -7,9 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/144v_9bUZlJGArdi_RUl-aTfVAEfk3blO
 """
 
-from google.colab import drive
+
 # Do not paste your URL here. Use this exact text:
-drive.mount('/content/drive')
+
 
 """# Task
 Analyze SDDS files from the folder "/content/drive/MyDrive/SDDS/" by parsing daily schedule data (Phase Wk/D, Date, Day, Status, Reason, Period 1-9), squad number, and campus from each file. Consolidate this data into a pandas DataFrame, perform an initial analysis to summarize key metrics (total days, unique campuses/squads, status distribution, activity frequency), and then develop a programmatic query interface to filter this data by various criteria such as squad, campus, date range, status, or specific period activities. Finally, demonstrate the analysis and querying capabilities.
