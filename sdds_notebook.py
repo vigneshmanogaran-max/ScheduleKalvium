@@ -939,9 +939,6 @@ Install the `streamlit` and `pyngrok` libraries, which will be used to create th
 To install the `streamlit` and `pyngrok` libraries as required by the subtask, I will use `pip install` commands within a code block.
 """
 
-pip install streamlit
-pip install pyngrok
-
 """**Reasoning**:
 The previous code failed with a `SyntaxError` because `pip install` commands need to be prefixed with `!` when executed in a Colab notebook. I will fix this by adding `!` before each `pip install` command.
 
